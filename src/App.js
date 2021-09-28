@@ -7,7 +7,36 @@ import {
   Route
 } from "react-router-dom";
 import { withAuth0 } from '@auth0/auth0-react';
+import Button from 'react-bootstrap/Button';
+import { Button } from 'react-bootstrap';
+import "~bootstrap/scss/bootstrap";
+import './App.scss';
+import React from "react";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
+import Button from "@material-ui/core/Button";
+import CardActions from "@material-ui/core/CardActions";
+  
+export default function App() {
+  return (
+    <div style={{}}>
+      <Card
+      >
+        <CardContent>
+          
+          
+        </CardContent>
+        <CardActions>
+          {/* <Button size="small">Stay Safe.....</Button> */}
+        </CardActions>
+      </Card>
+    </div>
+  );
+}
 
+
+
+const mongoose = require("mongoose");
 
 class App extends React.Component {
 
